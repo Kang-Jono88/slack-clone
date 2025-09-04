@@ -4,12 +4,12 @@ import React from 'react'
 const App = () => {
   return (
     <header>
-     <SignedOut>
-      <SignInButton mode="modal"/>
+      <SignedOut>
+        <SignInButton mode="modal"/>
+      </SignedOut>
       <SignedIn>
         <UserButton/>
-     </SignedIn>
-    </SignedOut>
+      </SignedIn>
     </header>
   )
 }
