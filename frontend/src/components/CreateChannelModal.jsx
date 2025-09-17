@@ -134,7 +134,7 @@ const CreateChannelModal = ({onClose}) => {
       <div className="create-channel-modal">
         <div className="create-channel-modal__header">
           <h2>Create a channel</h2>
-          <button  className="create-channel-modal__close">
+          <button onClick={onClose}  className="create-channel-modal__close">
             <XIcon className="w-5 h-5" />
           </button>
         </div>
@@ -280,7 +280,7 @@ const CreateChannelModal = ({onClose}) => {
 
           {/* Actions */}
           <div className="create-channel-modal__actions">
-            <button type="button"  className="btn btn-secondary">
+            <button type="button" onClick={onClose} className="btn btn-secondary">
               Cancel
             </button>
             <button
