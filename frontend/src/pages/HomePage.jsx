@@ -112,7 +112,7 @@ const HomePage = () => {
           <div className="chat-main">
             <Channel channel={activeChannel}>
               <Window>
-                {/* <CustomChannelHeader /> */}
+                <CustomChannelHeader />
                 <MessageList />
                 <MessageInput />
               </Window>
